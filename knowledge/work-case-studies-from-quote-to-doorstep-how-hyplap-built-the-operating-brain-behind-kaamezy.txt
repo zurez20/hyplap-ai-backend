@@ -1,0 +1,67 @@
+URL: https://www.hyplap.com/work/case-studies/from-quote-to-doorstep-how-hyplap-built-the-operating-brain-behind-kaamezy
+TITLE: 
+
+## Services
+
+
+
+## About HYPLAP
+
+
+
+## From Quote to Doorstep: How HYPLAP Built the Operating Brain Behind Kaamezy
+
+
+
+## Quick Read AI-generated summary
+
+
+
+## Key Takeaways
+
+
+AI-powered rate estimation removed pricing guesswork — customers get instant, transparent quotes before making a request. A fully dynamic admin panel lets the Kaamezy team build and modify intake forms without touching code — reducing ops dependency on developers. Real-time tracking via Socket.io keeps admins, clients, and helpers in sync from request submission through job completion. End-to-end workflow automation — from maid assignment and trial period management to invoice generation — means fewer manual touchpoints and faster turnaround. A structured employee registration portal brings helpers onto the platform with traceability, making supply-side scaling manageable and auditable. ## The Challenge
+
+
+Kaamezy entered the home services market — specifically household help and maid placement — with a strong idea and no scalable infrastructure to back it. The core problem was operational fragmentation: customer requests came in through informal channels, pricing was inconsistent, helper availability was tracked manually, and there was no unified view of where a request stood at any point. Admins were fielding queries, making assignments, and chasing payments across disconnected tools. For a service business that lives or dies by reliability and speed, this was unsustainable from day one. Kaamezy needed a customized solution that could handle every step of the service journey — from the moment a customer requests a quote on the website to the moment an invoice lands in their inbox — without human bottlenecks at every turn. ## The Solution
+
+
+HYPLAP approached Kaamezy as a system design problem, not just a website build. Rather than patching together third-party tools, we built a tightly integrated platform across two surfaces: a customer-facing website powered by Next.js and React, and an internal admin panel that doubles as a full operations hub. The AI estimation engine sits at the centre of the customer experience — analysing service inputs and location data via Google Maps/Places API to produce accurate rate quotes instantly. On the back end, Node.js and MongoDB handle the full request lifecycle, while MSG91 manages SMS and email notifications and Socket.io delivers real-time status updates across the platform. What makes this platform different is the no-code form builder inside the admin panel. The Kaamezy team can create and modify intake forms — whether for customer quote requests or helper registration — without any developer involvement. This was a deliberate product decision: a home services company scales by iterating fast on how it captures customer and worker data, and locking that behind code would slow everything down. What we delivered:
+
+AI-powered rate estimation engine — instant quote generation based on service inputs and location
+
+Dynamic admin form builder — create and update intake forms with no developer involvement
+
+Employee / helper registration portal — structured onboarding for domestic workers
+
+Real-time request tracking via Socket.io — live status updates across admin, client, and helper
+
+Maid assignment workflow — match and assign helpers to approved requests
+
+Trial period management module — track and manage probationary placements
+
+Invoice generation system — automated billing at job completion
+
+Broadcast category request flow — push open requests to relevant helpers
+
+MSG91 SMS & email notifications — automated alerts at every stage
+
+Google Maps & Places API integration — accurate location-based pricing and address lookup
+
+Next.js + React customer-facing website
+
+Node.js + MongoDB backend
+
+
+## The Results
+
+
+Zero manual quote calculations — the AI estimation engine handles pricing automatically the moment a customer submits their requirements. 100% of the request lifecycle — from submission to maid assignment, trial period, and invoicing — is now tracked inside one admin panel. No-code form management means the ops team can modify intake flows and add new service categories without waiting on a developer. Real-time notifications via Socket.io and MSG91 eliminated the need for manual follow-up calls between admins, customers, and helpers. The Kaamezy platform replaced a fragmented, manual operation with a single coordinated system. Admins can now track every request from submission to invoice without switching tools. Helper onboarding moved from informal phone-based recruitment to a structured digital registration flow. Customers — who previously had no visibility into pricing until they spoke to someone — now receive an AI-generated estimate the moment they fill in their requirements. The result is a faster, more trustworthy service experience on both ends of the marketplace. ## Let’s Bring Your Vision to Life! Want to innovate your business? Let’s connect and explore how HYPLAP can help. Tech Solution
+
+Talk To Us
+
+Vruttik Ghanekar
+
+April 02 2026
+
+Consult With Us

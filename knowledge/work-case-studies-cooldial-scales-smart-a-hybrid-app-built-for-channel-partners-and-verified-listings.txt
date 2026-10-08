@@ -1,0 +1,80 @@
+URL: https://www.hyplap.com/work/case-studies/cooldial-scales-smart-a-hybrid-app-built-for-channel-partners-and-verified-listings
+TITLE: 
+
+## Services
+
+
+
+## About HYPLAP
+
+
+
+## CoolDial Scales Smart: A Hybrid App Built for Channel Partners and Verified Listings
+
+
+
+## Quick Read AI-generated summary
+
+
+
+## Key Takeaways
+
+
+Hybrid frameworks like Ionic + Cordova offer the perfect balance of performance and cost-efficiency
+
+For multi-vendor platforms, tailored features like SMS-based verification improve data integrity
+
+Hyplap’s ability to serve both mobile users and admins in one solution led to 4x operational efficiency
+
+Replacing off-the-shelf tools with industry-specific custom development unlocks long-term scalability
+
+
+## The Challenge
+
+
+CoolDial, a Mumbai-based startup aiming to become a top multi-vendor business listing platform in India, needed a tech foundation that could scale fast. Their biggest bottlenecks were manual business verifications, inconsistent data entry by partners, and a lack of a unified system across Android and iOS. Generic solutions like Shopify or off-the-shelf directories didn’t offer the flexibility or control they needed to serve both channel partners and end-users. ## The Solution
+
+
+Hyplap delivered a custom hybrid app solution using Ionic, Angular, Cordova, and Laravel for the backend. This created a lightning-fast, cross-platform mobile experience without maintaining two separate codebases. We also developed an admin panel for internal teams and partners. Key features included:
+
+OTP & SMS verification for authentic listings
+
+OneSignal notifications for listing approvals and updates
+
+Multi-role access for end-users, vendors, and super-admins
+
+Real-time data sync via AJAX and REST APIs
+
+Built-in email plugin for partner communications
+
+Scalable UI with Bootstrap 5 + Angular + Typescript
+
+The platform could now handle everything from listing approval to user onboarding seamlessly across devices. ## The Results
+
+
+3x faster onboarding of channel partners with in-app business verification
+
+Over 7,000 businesses listed within the first 6 months
+
+Active user base of 3,000+ monthly users across Android and iOS
+
+Notifications via OneSignal boosted partner engagement by 65%
+
+Zero dependency on third-party platforms like Shopify—full ownership and customization
+
+CoolDial now operates as a flexible, mobile-first marketplace for verified business listings. ## Our Case Study
+
+
+
+## Insights & Inspiration for Digital Growth
+
+
+Explore valuable insights, industry trends, and expert advice from HYPLAP's team. Our blogs help you stay informed, inspired, and ahead in the ever-evolving digital world. ## Let’s Bring Your Vision to Life! Want to innovate your business? Let’s connect and explore how HYPLAP can help. Tech Solution
+
+Talk To Us
+
+Samruddhi Surve
+
+June 23 2025
+
+Consult With Us
