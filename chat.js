@@ -2,6 +2,11 @@ import { ChromaClient } from "chromadb";
 import { GoogleGenAI } from "@google/genai";
 import { fileURLToPath } from "url";
 import "dotenv/config";
+import Groq from "groq-sdk";
+
+const groq = new Groq({
+  apiKey: process.env.GROQ_API_KEY,
+});
 
 const chroma = new ChromaClient({
   host: "localhost",
@@ -9,13 +14,13 @@ const chroma = new ChromaClient({
   ssl: false,
 });
 
-const ai = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY,
-});
+// const ai = new GoogleGenAI({
+//   apiKey: process.env.GEMINI_API_KEY,
+// });
 
 async function createEmbedding(text) {
-  const response = await ai.models.embedContent({
-    model: "gemini-embedding-001",
+  const response = await groq.models.embedContent({
+    model: "openai/gpt-oss-20b",
     contents: text,
   });
 
@@ -36,14 +41,34 @@ export async function searchKnowledge(query) {
     include: ["documents", "metadatas", "distances"],
   });
 
-  console.log("context used to give response" , JSON.stringify(results, null, 2));
+  console.log("context used to give response", JSON.stringify(results, null, 2));
 
   const documents = results.documents?.[0] || [];
 
   return documents;
 }
 
-export async function generateAnswer(question, knowledge) {
+async function rewriteQuery(question, history) {
+  if (history.length === 0) return question;
+
+  const transcript = history
+    .map((m) => `${m.role === "assistant" ? "Assistant" : "User"}: ${m.content}`)
+    .join("\n");
+
+  const response = await groq.models.generateContent({
+    model: "openai/gpt-oss-20b",
+
+    contents: `Conversation so far:\n${transcript}\n\nFollow-up question: ${question}`,
+    config: {
+      systemInstruction:
+        "Rewrite the follow-up question as one standalone question that makes sense without the conversation. Resolve pronouns and missing subjects. If it is already standalone, return it unchanged. Output only the question.",
+    },
+  });
+
+  return response.text.trim();
+}
+
+export async function generateAnswer(question, knowledge, history = []) {
   const context = knowledge.join("\n\n---\n\n");
   //   console.log('context',context);
 
@@ -67,20 +92,39 @@ HYPLAP KNOWLEDGE:
 ${context}
 `;
 
-  const response = await ai.models.generateContent({
-    model: "gemini-3.6-flash",
-    contents: question,
-    config: {
-      systemInstruction,
-    },
+  const contents = [
+    ...history.map((m) => ({
+      role: m.role === "assistant" ? "model" : "user",
+      parts: [{ text: m.content }],
+    })),
+    { role: "user", parts: [{ text: question }] },
+  ];
+
+  const response = await groq.models.generateContent({
+    model: "openai/gpt-oss-20b",
+    contents,
+    config: { systemInstruction },
   });
 
   return response.text;
 }
 
-export async function ask(question) {
-  const knowledge = await searchKnowledge(question);
-  const answer = await generateAnswer(question, knowledge);
+const MAX_HISTORY = 6;
+
+export async function ask(question, history = []) {
+  const cleanHistory = history
+    .filter(
+      (m) =>
+        (m.role === "user" || m.role === "assistant") &&
+        typeof m.content === "string"
+    )
+    .slice(-MAX_HISTORY);
+
+  const standalone = await rewriteQuery(question, cleanHistory);
+  console.log("Standalone query:", standalone);
+
+  const knowledge = await searchKnowledge(standalone);
+  const answer = await generateAnswer(question, knowledge, cleanHistory);
   return answer;
 }
 

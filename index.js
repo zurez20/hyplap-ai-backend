@@ -1,6 +1,6 @@
 import express from "express";
 import { ask } from "./chat.js";
-import cors from "cors"; 
+import cors from "cors";
 
 const app = express();
 app.use(cors());
@@ -9,15 +9,18 @@ app.use(express.json());
 
 app.post("/api/chat", async (req, res) => {
   try {
-    const { prompt } = req.body;
+
+    const { prompt, history = [] } = req.body;
 
     if (!prompt) {
-      return res.status(400).json({
-        error: "prompt is required",
-      });
+      return res.status(400).json({ error: "prompt is required" });
     }
 
-    const response = await ask(prompt);
+    if (!Array.isArray(history)) {
+      return res.status(400).json({ error: "history must be an array" });
+    }
+
+    const response = await ask(prompt, history);
 
     return res.json({ response });
   } catch (error) {
