@@ -3,7 +3,7 @@ import { ask } from "./chat.js";
 import cors from "cors";
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: ["https://hyplap.com", "https://www.hyplap.com","http://127.0.0.1:8000"] }));
 
 app.use(express.json());
 
@@ -36,6 +36,6 @@ app.post("/api/chat", async (req, res) => {
 // ./chroma-env/bin/chroma run --path ./chroma-data --port 8000
 // to run the project
 
-app.listen(3000, () => {
+app.listen(3000, "127.0.0.1", () => {
   console.log("AI server running on http://localhost:3000");
 });
