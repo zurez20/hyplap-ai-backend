@@ -132,7 +132,7 @@ ${context}
     model: MODEL,
     messages,
     temperature: 0.2,
-    reasoning_effort: "low",
+    reasoning_effort: "medium",
     max_completion_tokens: 2048,
   });
 
