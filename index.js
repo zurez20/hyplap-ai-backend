@@ -3,7 +3,7 @@ import { ask } from "./chat.js";
 import cors from "cors";
 
 const app = express();
-app.use(cors({ origin: ["https://hyplap.com", "https://www.hyplap.com","http://127.0.0.1:8000"] }));
+app.use(cors({ origin: ["https://hyplap.com", "https://www.hyplap.com","http://127.0.0.1:*"] }));
 
 app.use(express.json());
 
