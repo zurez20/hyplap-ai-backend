@@ -1,0 +1,77 @@
+URL: https://www.hyplap.com/work/case-studies/from-scattered-studios-to-one-smart-platform-how-hyplap-built-somewhr-the-wellness-discovery-app-that-works-for-both-sides-of-the-market
+TITLE: 
+
+## Services
+
+
+
+## About HYPLAP
+
+
+
+## From Scattered Studios to One Smart Platform: How HYPLAP Built somewhr — the Wellness Discovery App That Works for Both Sides of the Market
+
+
+
+## Quick Read AI-generated summary
+
+
+
+## Key Takeaways
+
+
+Customised Solution: Built a fully bespoke two-sided marketplace tailored exclusively for the wellness sector — no off-the-shelf compromises, every feature designed around real user and partner behaviour. Integrated Solution: Delivered an end-to-end platform covering discovery, booking, payment gateway integration, SMS & email notifications, push alerts, and AI analytics — all within a single unified system. Hybrid App Design & Development: Built once, deployed everywhere — a single Ionic + Angular codebase runs natively on iOS, Android, and web, reducing development overhead and maintaining UI/UX consistency across all platforms. System Integration: Seamlessly connected third-party payment gateways, SMS APIs, email services, and notification providers into one automated, cohesive workflow — true end-to-end system integration. Customised Websites & Mobile Apps: Designed and developed a fully customised digital experience — from the consumer-facing discovery app to the partner management portal — built for startups and enterprises alike, irrespective of scale. ## The Challenge
+
+
+The urban wellness space was expanding rapidly, but discovery remained fragmented. Consumers looking for Pilates, recovery, or holistic sessions had no single platform to rely on — instead, they navigated scattered information across Instagram, Google, and word-of-mouth. This made the process slow, inconsistent, and often led to costly trial-and-error decisions. At the same time, many high-quality wellness studios remained largely invisible due to the lack of a structured digital presence. On the operational side, studio owners and independent practitioners were managing everything manually — bookings on WhatsApp, payments through follow-ups, and schedules on spreadsheets. There was no customised system to support their growth, and more importantly, no access to data or analytics to understand performance or demand. Freelancers faced an even bigger challenge: no credible digital storefront to showcase or scale their services. When the somewhr approached HYPLAP, the task was clear: build a solution that could bring structure, visibility, and intelligence to an otherwise fragmented wellness ecosystem. What followed was not just a platform, but a complete, integrated system designed to transform how wellness is discovered, managed, and scaled. ## The Solution
+
+
+We at HYPLAP designed Somewhr as a fully customised, integrated solution — purpose-built from the ground up to serve both sides of the wellness marketplace simultaneously. The platform was crafted with a strong focus on UI/UX, aligning with real-world workflows of wellness consumers and studio operators. Every feature, data flow, and user interaction was designed to reflect actual behaviour rather than assumed use cases. On the consumer side, the Somewhr User App delivers a category-driven discovery experience spanning Pilates, yoga, recovery, breathwork, and sound healing — reducing the time from intent to first booking by 30%. The signature innovation is the Discovery Pass: a bundled pass granting commitment-free access to three different studios at a discounted price. This model directly resolves consumer hesitation and resulted in a 2x increase in the seriousness of leads converting into confirmed bookings. On the partner side, the Partner App functions as a fully integrated business management platform — combining profile creation, class and event scheduling, real-time booking management, a dynamic admin panel, an integrated payment gateway, and a customized coupon system into one seamless ecosystem. Automated SMS and email notifications ensure continuous engagement without manual effort, reducing no-shows and saving operational time. Additionally, the platform leverages AI for generation of dashboards and analytics for partners, enabling data-driven decision-making with real-time insights into performance, demand patterns, and revenue trends. This integrated solution helped partners achieve an average 15% reduction in operational costs within the first quarter of adoption.Key deliverables:
+
+Hybrid app design and development via Ionic + Angular (iOS, Android, and web from a single codebase)
+
+Category-based discovery engine with wellness event listings
+
+Discovery Pass — bundled multi-studio access with integrated checkout
+
+Dynamic platform for studios and freelancers (class, event, and package management)
+
+Real-time booking management dashboard
+
+Payment gateway integration for seamless in-app transactions and partner payouts
+
+SMS integration and customised push/email notifications for booking confirmations and reminders
+
+Coupon creation and promotional offer system
+
+Generative AI-powered analytics dashboard with conversational querying
+
+Node.js backend with MongoDB for scalable, flexible data architecture
+
+
+## The Results
+
+
+The impact of Somewhr's customised solution was measurable and immediate across both sides of the marketplace. The integrated platform design — combining discovery, booking, system integration, and AI-driven analytics — created a compounding positive effect that benefited users, partners, and platform engagement simultaneously. Onboarding time reduced by 30%: Users moved from app discovery to first confirmed booking significantly faster, driven by intuitive category-based navigation and the streamlined booking flow with integrated payment gateway and instant confirmation. Booking conversion rate up 25%: Improved studio discoverability, a seamless booking UX, and the Discovery Pass model combined to drive a sustained increase in confirmed bookings versus casual browsing sessions. Partner operational costs down 15%: Automated booking management, SMS integration, email notifications, and the dynamic admin panel eliminated 8–10 hours of manual administrative work per studio per week. Average order value increased: The coupon creation system and package management tools enabled partners to offer bundled sessions at premium price points — growing per-customer revenue without additional acquisition spend. Lead seriousness doubled: The Discovery Pass pre-qualifies users through upfront purchase commitment, resulting in a 2× improvement in the ratio of high-intent bookings versus casual, non-converting inquiries. 40% more studios explored per user: The Discovery Pass and category-based discovery together drove significantly deeper platform engagement, with users exploring an average 40% more studios before making a booking commitment. IS THIS THE PROBLEM YOUR WELLNESS BUSINESS IS DEALING WITH? If you're building a wellness platform, fitness marketplace, or any kind of two-sided booking product — and you're staring down the challenge of making it work for both your users and your partners simultaneously — that's exactly the kind of problem HYPLAP is built for. We've done the hard part of figuring out how discovery, booking, payments, and analytics need to connect. Your industry deserves a product that converts, not just a product that launches. ## How can I help? Ask me anything about this website. I'm here to help you find the right information. ## Let’s Bring Your Vision to Life! Want to innovate your business? Let’s connect and explore how HYPLAP can help. Tech Solution
+
+Talk To Us
+
+Chaitali Darekar
+
+April 02 2026
+
+Visit
+
+, fill in the enquiry form, or call us at
+
+/
+
+. I'd like to get a quote
+
+What services do you offer? Show me your case studies
+
+✦
+
+×
+
+Consult With Us

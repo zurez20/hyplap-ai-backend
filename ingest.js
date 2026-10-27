@@ -3,6 +3,10 @@ import path from "path";
 import { ChromaClient } from "chromadb";
 import { GoogleGenAI } from "@google/genai";
 import "dotenv/config";
+import crypto from "crypto";
+
+const INDEX_VERSION = "1"; // bump when you change chunk size/overlap or the embedding model
+
 
 const chroma = new ChromaClient({
     host: "localhost",
@@ -54,59 +58,74 @@ async function createEmbedding(text) {
     return response.embeddings[0].values;
 }
 
+function hashContent(content) {
+    return crypto
+        .createHash("sha256")
+        .update(`${INDEX_VERSION}:${content}`)
+        .digest("hex");
+}
+
 async function main() {
     const collection = await chroma.getOrCreateCollection({
         name: "hyplap_knowledge",
         embeddingFunction: null,
     });
 
-    const files = await fs.readdir(knowledgeDir);
+    // What's already indexed: source file -> hash
+    const existing = await collection.get({ include: ["metadatas"] });
+    const indexedHashes = new Map();
+    for (const meta of existing.metadatas) {
+        if (meta?.source) indexedHashes.set(meta.source, meta.fileHash);
+    }
 
-    const documents = [];
-    const embeddings = [];
-    const ids = [];
-    const metadatas = [];
+    const files = (await fs.readdir(knowledgeDir)).filter((f) => f.endsWith(".txt"));
+
+    let updated = 0;
+    let skipped = 0;
 
     for (const file of files) {
-        if (!file.endsWith(".txt")) continue;
+        const content = await fs.readFile(path.join(knowledgeDir, file), "utf8");
+        const fileHash = hashContent(content);
 
-        console.log(`Processing: ${file}`);
+        if (indexedHashes.get(file) === fileHash) {
+            skipped++;
+            continue;
+        }
 
-        const filePath = path.join(knowledgeDir, file);
-        const content = await fs.readFile(filePath, "utf8");
-
+        console.log(`Re-indexing: ${file}`);
         const chunks = chunkText(content);
 
-        console.log(`  Chunks: ${chunks.length}`);
+        // Embed first, so a failed API call doesn't leave the page with no chunks
+        const embeddings = [];
+        for (const chunk of chunks) {
+            embeddings.push(await createEmbedding(chunk));
+        }
 
-        for (let i = 0; i < chunks.length; i++) {
-            const chunk = chunks[i];
+        // Drop the page's old chunks (including leftovers if it got shorter), then insert new ones
+        await collection.delete({ where: { source: file } });
 
-            const embedding = await createEmbedding(chunk);
-
-            documents.push(chunk);
-            embeddings.push(embedding);
-
-            ids.push(`${file}-${i}`);
-
-            metadatas.push({
-                source: file,
-                chunkIndex: i,
+        if (chunks.length > 0) {
+            await collection.upsert({
+                ids: chunks.map((_, i) => `${file}-${i}`),
+                embeddings,
+                documents: chunks,
+                metadatas: chunks.map((_, i) => ({ source: file, chunkIndex: i, fileHash })),
             });
+        }
+
+        updated++;
+    }
+
+    // Pages that no longer exist in knowledge/
+    const currentFiles = new Set(files);
+    for (const source of indexedHashes.keys()) {
+        if (!currentFiles.has(source)) {
+            console.log(`Removing deleted page: ${source}`);
+            await collection.delete({ where: { source } });
         }
     }
 
-    console.log(`\nTotal chunks: ${documents.length}`);
-    console.log("Adding to ChromaDB...");
-
-    await collection.upsert({
-        ids,
-        embeddings,
-        documents,
-        metadatas,
-    });
-
-    console.log("Done!");
+    console.log(`Done. Re-indexed: ${updated}, unchanged: ${skipped}`);
 }
 
 main().catch(console.error);

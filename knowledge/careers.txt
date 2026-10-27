@@ -45,29 +45,100 @@ Approach challenges with logic, clarity, and creativity. ## Integrity
 Do what’s right—even when no one’s watching. Evolve continuously. Precise code. Clear thinking. ## Join Our Team
 
 
-Explore exciting opportunities and grow with us at Hyplap IT Solutions. ## Profile: Creative Design Trainee (UI/UX & Graphic Design)
+Explore exciting opportunities and grow with us at Hyplap IT Solutions. ## Performance Marketing & Social Media Manage
 
 
+Plan, run and optimise paid campaigns on Meta Ads and Google Ads
 
-## Location: Vashi
+Own campaign results, from launch and A/B testing to scaling and controlling CPL, CPA and ROAS
 
+Manage retargeting and funnels for lead generation, sales and conversions
 
-Key Responsibilities:
+Track performance with GA, GTM and Meta Events Manager, and share clear insights and reports
 
-UI/UX Design Execution: Design intuitive, visually appealing, and highly functional user interfaces for both corporate websites and mobile applications (iOS/Android) using Figma. Visual Asset Creation: Develop all necessary graphic elements, including custom icons, detailed illustrations, and unique design components. Graphic Design Production: Utilize the Adobe Creative Suite (Illustrator, Photoshop, InDesign) to produce high-quality visual content for internal and external projects. Interactive Content: Conceptualize and design engaging, interactive graphics and short animations for social media campaigns using tools like Adobe After Effects. Presentation & Documentation: Create professional and clean presentations of design interfaces and user flows for internal review and client communication. Brand Consistency: Ensure all visual output aligns with established brand guidelines and maintains a consistent, high-quality aesthetic. Communication Skills: Excellent written and verbal communication skills in English. Required Skills & Qualifications:
+Give creative briefs to designers based on campaign data
 
-Software Proficiency (Must-Have):
-
-Expertise in Figma for UI/UX prototyping and collaboration. Strong working knowledge of Adobe Illustrator and Adobe Photoshop for graphic creation and image manipulation. Familiarity with Adobe InDesign for document/presentation layout. Basic to intermediate knowledge of Adobe After Effects for motion graphics/social content. Educational Background: A degree or diploma in Graphic Design, Visual Arts, UI/UX Design. ## Profile: Business Development & Sales Executive
-
-
-
-## Location: Vashi
+Must have hands-on experience managing real ad budgets. Post scheduling and basic boosting alone won't fit. ## Digital Marketing Intern → Full-Time
 
 
-Key Responsibilities:
+Work on SEO, AEO and GEO: keyword research, on-page and technical SEO, and visibility in AI search
 
-Full-Cycle Prospecting: Proactively identify, qualify, and engage new business opportunities in both the Indian and international markets. Lead Generation Mastery: Utilize advanced tools and techniques, including Apollo.io, data scraping tools, and email campaign strategies, to build a robust sales pipeline. Client Engagement & Pitching: Conduct effective cold/warm calls and meetings to clearly articulate the value proposition of Google Workspace/Cloud solutions and our custom IT development services (App/Web Development). Needs Analysis: Expertly diagnose a client's business challenges and clearly identify how HYPLAP's solutions can solve them, leading to tailored proposals. Proposal & Negotiation: Draft compelling sales proposals, manage the negotiation process, and successfully close contracts to meet and exceed monthly targets. Pipeline Management: Maintain accurate and detailed records of all sales activities and client data using Google Sheets and internal CRM systems. ## Client Testimonials
+Assist with Google Ads and Meta Ads campaigns
+
+Plan social media content, calendars and strategies for different brands
+
+Track digital and content trends and suggest fresh ideas for clients
+
+Prepare basic reports using Google Analytics and Search Console
+
+Coordinate with design, content and development teams
+
+
+## Graphic Designer Intern → Full-Time
+
+
+Design website and app banners, social media posts, reel covers and marketing creatives
+
+Create brand assets, logos, brochures, presentations and pitch decks
+
+Make motion graphics, short videos and Lottie animations
+
+Deliver assets to developers in the required formats
+
+Tools: Figma, Photoshop, Illustrator, After Effects and Premiere Pro
+
+Bring a strong portfolio and fluent English
+
+
+## Graphic Designer
+
+
+Design website and app banners, social media posts, reel covers and marketing creatives
+
+Create brand assets, logos, brochures, presentations and pitch decks
+
+Make motion graphics, short videos and Lottie animations
+
+Keep design consistent across all brand touchpoints and deliver assets to developers in the required formats
+
+Tools: Figma, Photoshop, Illustrator, After Effects and Premiere Pro
+
+Bring a strong portfolio and fluent English
+
+
+## Digital Marketing Executive
+
+
+Plan and execute SEO, AEO and GEO strategies: keyword research, on-page and technical SEO, and visibility in AI search
+
+Run and optimise Google Ads and Meta Ads campaigns, tracking CTR, CPC, CPA and ROAS
+
+Plan social media content and calendars for different brands
+
+Track digital trends and bring fresh ideas for clients
+
+Prepare performance reports using Google Analytics and Search Console
+
+Coordinate with design, content and development teams
+
+
+## Business Development Executive
+
+
+Generate new business through cold calls, emails, LinkedIn and networking
+
+Understand client requirements and pitch our digital, design and marketing services
+
+Prepare proposals and quotations, follow up, and close deals
+
+Maintain leads and follow-ups in the CRM and share regular sales reports
+
+Work with the internal teams for smooth client onboarding
+
+Strong communication and negotiation skills, and a target-driven mindset
+
+
+## Client Testimonials
 
 
 
@@ -98,7 +169,37 @@ We've had the privilege of working with some remarkable organisations — from f
 ## Insights & Inspiration for Digital Growth
 
 
-Explore valuable insights, industry trends, and expert advice from HYPLAP's team. Our blogs help you stay informed, inspired, and ahead in the ever-evolving digital world. ## FAQ's
+Explore valuable insights, industry trends, and expert advice from HYPLAP's team. Our blogs help you stay informed, inspired, and ahead in the ever-evolving digital world. ## Keeping Your Data Safe with Automated Cloud Backups
+
+
+Automated cloud backups protect your business data without the daily hassle of manual backups. ## Switching to Digital Workspaces Without Losing Data
+
+
+A practical guide for founders moving to digital workspaces while keeping critical information secure. ## Building Apps That Actually Keep Users Coming Back in 2026
+
+
+Practical strategies for creating sticky mobile apps and web apps that drive retention in 2026. ## Best AWS Cloud Security Tips for Modern Startups
+
+
+Essential AWS cloud security tips for modern startups to protect data, build trust, and scale safely. ## Why WhatsApp Business API is essential for MSMEs
+
+
+Discover how the WhatsApp Business API can streamline your operations and boost customer engagement for your MSME. ## Top AI Solutions for Startups in India This Year
+
+
+Here are the most practical and affordable AI tools that Indian founders are actually using right now. ## Is AWS still the best cloud pick for Indian SaaS founders in 2026? As the Indian SaaS scene gets crowded, is your cloud provider still helping you scale or just burning cash? ## Why WhatsApp Business API is replacing traditional email for SMBs
+
+
+SMBs find the WhatsApp Business API delivers faster responses, higher open rates, and stronger customer relationships than email ever could. ## How to Build a Brand Story That Converts for Indian Consumers
+
+
+Discover the secrets to crafting a compelling brand story that drives real results in the diverse Indian market. ## Why Indian Startups Choose Flutter in 2026
+
+
+Explore why modern Indian founders are moving to Flutter for their app projects in 2026. ## Building Smart Digital Products with Modern Technologies
+
+
+How HYPLAP develops scalable platforms, admin panels, and AI-ready business solutions. ## FAQ's
 
 
 
@@ -106,7 +207,7 @@ Explore valuable insights, industry trends, and expert advice from HYPLAP's team
 
 
 
-## Application Submitted! Thank you for applying. We'll review your profile and get back to you soon. ## Thank You for Reaching Out! We have already received your message and will get back to you shortly. ## Let’s Bring Your Vision to Life! Want to innovate your business? Let’s connect and explore how HYPLAP can help. Tech Solution
+## Application Submitted! Thank you for applying. We'll review your profile and get back to you soon. ## Thank You for Reaching Out! We have already received your message and will get back to you shortly. ## How can I help? Ask me anything about this website. I'm here to help you find the right information. ## Let’s Bring Your Vision to Life! Want to innovate your business? Let’s connect and explore how HYPLAP can help. Tech Solution
 
 Talk To Us
 
@@ -134,10 +235,138 @@ Growth-Oriented Roles for Driven Professionals
 
 Design, Develop, Lead—Your Way at HYPLAP
 
-Read more
+2–5 years
+
+Experience:
+
+2
+
+No. Of Position:
+
+Mumbai (Work from Office, Mon–Sat)
+
+Location:
+
+Job Description:
 
 Read more
+
+Fresher (2-month internship, then full-time)
+
+Experience:
+
+2
+
+No. Of Position:
+
+Vashi, Navi Mumbai (Work from Office, Mon–Fri)
+
+Location:
+
+Job Description:
+
+Read more
+
+Fresher (2-month internship, then full-time)
+
+Experience:
+
+2
+
+No. Of Position:
+
+Vashi, Navi Mumbai (Work from Office, Mon–Fri)
+
+Location:
+
+Job Description:
+
+Read more
+
+1+ year
+
+Experience:
+
+2
+
+No. Of Position:
+
+Vashi, Navi Mumbai (Work from Office, Mon–Fri)
+
+Location:
+
+Job Description:
+
+Read more
+
+1–3+ years
+
+Experience:
+
+2
+
+No. Of Position:
+
+Vashi, Navi Mumbai (Work from Office, Mon–Fri)
+
+Location:
+
+Job Description:
+
+Read more
+
+Cloud
+
+October 24 2026
+
+Quality Assurance
+
+October 24 2026
+
+App development
+
+October 24 2026
+
+Cloud
+
+October 23 2026
+
+WhatsApp Business
+
+October 23 2026
+
+Cloud
+
+October 23 2026
+
+Cloud
+
+October 15 2026
+
+WhatsApp Business
+
+October 15 2026
+
+Branding
+
+October 15 2026
+
+App development
+
+October 15 2026
+
+AI Development
+
+May 27 2026
 
 Upload Resume
+
+I'd like to get a quote
+
+What services do you offer? Show me your case studies
+
+✦
+
+×
 
 Consult With Us
